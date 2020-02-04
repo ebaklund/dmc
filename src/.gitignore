@@ -1,0 +1,16 @@
+Makefile
+Makefile.in
+.deps
+*.rc
+crispy-doom
+crispy-server
+crispy-doom-setup
+crispy-setup
+*.cfg
+*.exe
+*.desktop
+*.txt
+!CMakeLists.txt
+*.metainfo.xml
+tags
+TAGS
