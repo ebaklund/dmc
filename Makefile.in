@@ -108,11 +108,11 @@ am__v_P_1 = :
 AM_V_GEN = $(am__v_GEN_@AM_V@)
 am__v_GEN_ = $(am__v_GEN_@AM_DEFAULT_V@)
 am__v_GEN_0 = @echo "  GEN     " $@;
-am__v_GEN_1 =
+am__v_GEN_1 = 
 AM_V_at = $(am__v_at_@AM_V@)
 am__v_at_ = $(am__v_at_@AM_DEFAULT_V@)
 am__v_at_0 = @
-am__v_at_1 =
+am__v_at_1 = 
 SOURCES =
 DIST_SOURCES =
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
@@ -377,8 +377,7 @@ CMAKE_FILES = \
         cmake/Findsamplerate.cmake             \
         cmake/config.h.cin
 
-DOC_FILES =
-
+DOC_FILES = 
 EXTRA_DIST = \
         $(AUX_DIST_GEN)                 \
         $(CMAKE_FILES)                  \
@@ -439,7 +438,7 @@ config.h: stamp-h1
 stamp-h1: $(srcdir)/config.hin $(top_builddir)/config.status
 	@rm -f stamp-h1
 	cd $(top_builddir) && $(SHELL) ./config.status config.h
-$(srcdir)/config.hin:  $(am__configure_deps)
+$(srcdir)/config.hin:  $(am__configure_deps) 
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f stamp-h1
 	touch $@

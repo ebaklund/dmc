@@ -550,6 +550,7 @@ void D_DoomLoop(void)
 
   while (1)
   {
+    I_Sleep(20);
     D_RunFrame();
   }
 }
