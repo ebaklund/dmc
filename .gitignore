@@ -14,3 +14,4 @@ _deps
 autom4te.cache
 config.log
 config.status
+src/doom/libdoom.a
