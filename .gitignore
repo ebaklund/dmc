@@ -14,4 +14,17 @@ _deps
 autom4te.cache
 config.log
 config.status
+config.h
+config.hin
 src/doom/libdoom.a
+doom-wad-shareware_1.9.fixed.orig.tar
+config.hin
+config.hin~
+autotools/ar-lib
+autotools/compile
+autotools/config.guess
+autotools/config.sub
+autotools/depcomp
+autotools/install-sh
+autotools/missing
+src/setup/libsetup.a
