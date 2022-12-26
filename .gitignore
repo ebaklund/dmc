@@ -10,7 +10,10 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 *.o
+
 *.wad
+doom-wad*
+
 autom4te.cache
 config.log
 config.status
