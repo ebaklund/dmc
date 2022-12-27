@@ -106,6 +106,7 @@ SOURCE_FILES = $(COMMON_SOURCE_FILES) $(GAME_SOURCE_FILES)
 SOURCE_FILES_WITH_DEH = $(SOURCE_FILES) $(DEHACKED_SOURCE_FILES)
 
 EXTRA_LIBS =                                               \
+               $(top_builddir)/dmr/target/debug/libdmr.a   \
                $(top_builddir)/textscreen/libtextscreen.a  \
                $(top_builddir)/pcsound/libpcsound.a        \
                $(top_builddir)/opl/libopl.a                \
@@ -148,6 +149,7 @@ else
 @PROGRAM_PREFIX@setup_SOURCES=$(SETUP_FILES) $(COMMON_SOURCE_FILES)
 endif
 @PROGRAM_PREFIX@setup_LDADD = setup/libsetup.a                             \
+                        $(top_builddir)/dmr/target/debug/libdmr.a   \
                         $(top_builddir)/textscreen/libtextscreen.a   \
                         @LDFLAGS@ @SDL_LIBS@ @SDLMIXER_LIBS@ @SDLNET_LIBS@
 

@@ -22,6 +22,7 @@ config.log
 config.status
 CTestTestfile.cmake
 _deps
+dmr/target
 doom-wad*
 doom-wad-shareware_1.9.fixed.orig.tar
 install_manifest.txt
@@ -49,3 +50,7 @@ textscreen/am--include-marker
 textscreen/examples/#
 textscreen/examples/am--include-marker
 *.wad
+autotools/ar-lib
+autotools/compile
+autotools/compile
+autotools/missing

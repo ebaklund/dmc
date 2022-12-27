@@ -71,6 +71,8 @@
 
 #include "d_main.h"
 
+#include "dmr/src/lib.h"
+
 //
 // D-DoomLoop()
 // Not a globally visible function,
@@ -1039,6 +1041,8 @@ void D_DoomMain(void)
   char file[256];
   char demolumpname[9];
   int numiwadlumps;
+
+  rust_function();
 
   I_AtExit(D_Endoom,
            false);  // Eba Show filal text tring at termination of game
