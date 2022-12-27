@@ -1,5 +1,5 @@
 
-
+aclocal.m4
 autom4te.cache
 autotools/ar-lib
 autotools/compile
@@ -19,6 +19,7 @@ config.hin
 config.hin~
 config.log
 config.status
+configure
 CTestTestfile.cmake
 _deps
 dmr/target
@@ -26,6 +27,7 @@ doom-wad*
 doom-wad-shareware_1.9.fixed.orig.tar
 install_manifest.txt
 Makefile
+Makefile.in
 midiproc/#
 midiproc/am--include-marker
 *.o
@@ -49,7 +51,3 @@ textscreen/am--include-marker
 textscreen/examples/#
 textscreen/examples/am--include-marker
 *.wad
-autotools/ar-lib
-autotools/compile
-autotools/compile
-autotools/missing
