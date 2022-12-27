@@ -8,6 +8,7 @@ $ git clone https://github.com/ebaklund/dmc.git
 $ sudo apt install build-essential automake git
 $ # sudo apt build-dep crispy-doom # Not needed and also fails
 $ # One more package that I do not remember.
+```
 
 ### Build dmc/dmr
 drm is an embedded part of dmc. Build it first.
