@@ -80,10 +80,6 @@ static int localplayer;
 
 int		ticdup = 1;
 
-// Amount to offset the timer for game sync.
-
-fixed_t         offsetms;
-
 // Use new client syncronisation code
 
 static boolean  new_sync = true;
@@ -98,7 +94,7 @@ static loop_interface_t *loop_interface = NULL;
 
 static boolean local_playeringame[1];
 
-// 35 fps clock adjusted by offsetms milliseconds
+// 35 fps clock
 
 static int GetAdjustedTime(void)
 {
